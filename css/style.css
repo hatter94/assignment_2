@@ -20,4 +20,8 @@ body {
 .sideNav {
   position: fixed; }
 
+@media screen and (min-width: 1200px) {
+  .blogImg Img {
+    width: 75%; } }
+
 /*# sourceMappingURL=style.css.map */

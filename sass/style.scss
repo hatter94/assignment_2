@@ -27,3 +27,7 @@ body {background-color: $BGcolor;}
 .tab-pane {padding: $tabPanePad}
 
 .sideNav {position: fixed;}
+
+@media screen and (min-width:1200px) {
+    .blogImg Img {width: 75%;} 
+}
