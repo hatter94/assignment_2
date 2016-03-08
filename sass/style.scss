@@ -1,0 +1,27 @@
+@import "/css/bootstrap.min.css";
+@import "/css/business-casual.css";
+
+//Varibles
+
+$font: Helvetica, sans-serif;
+$BGcolor: Black;
+$textColor:black;
+$comNavSize: 1.1em;
+$comNavWeight: bolder;
+$tabPanePad:10px;
+
+
+
+body, h1, h2, h3, h4, li, p {font: $font; 
+
+}
+
+body {background-color: $BGcolor;}
+
+.brand, .address-bar {color:$textColor;}
+
+.com-nav {font-size: $comNavSize;
+            font-weight: $comNavWeight;
+            color: $textColor;}
+
+.tab-pane {padding: $tabPanePad}

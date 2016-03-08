@@ -11,11 +11,11 @@
 
     <title>Actives Log- PCT Gamers' Guild</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Core CSS 
+    <link href="css/bootstrap.min.css" rel="stylesheet">-->
 
     <!-- Custom CSS -->
-    <link href="css/business-casual.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
     <!-- Fonts -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
@@ -47,7 +47,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
-                <a class="navbar-brand" href="index.html">Business Casual</a>
+                <a class="navbar-brand" href="index.html">PCT Gamers' Guild</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -58,82 +58,142 @@
                     <li>
                         <a href="about.html">About</a>
                     </li>
-                    <li>
+                    <li class="active">
                         <a href="blog.html">Actives Log</a>
                     </li>
                     <li>
-                        <a href="blog.html">Committees</a>
+                        <a href="committees.html">Committees</a>
                     </li>
                     <li>
                         <a href="contact.html">Contact</a>
                     </li>
+                     <li>
+                    <a data-toggle="modal" data-target="#myModal">Log In</a>
+                </li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
-
-    <div class="container">
-
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Company
-                        <strong>blog</strong>
-                    </h2>
-                    <hr>
+    <div class="modal fade" id="myModal" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Log In</h4>
                 </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
-                    <h2>Post Title
-                        <br>
-                        <small>October 13, 2013</small>
-                    </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
-                    <h2>Post Title
-                        <br>
-                        <small>October 13, 2013</small>
-                    </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
-                    <h2>Post Title
-                        <br>
-                        <small>October 13, 2013</small>
-                    </h2>
-                    <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-                    <a href="#" class="btn btn-default btn-lg">Read More</a>
-                    <hr>
-                </div>
-                <div class="col-lg-12 text-center">
-                    <ul class="pager">
-                        <li class="previous"><a href="#">&larr; Older</a>
-                        </li>
-                        <li class="next"><a href="#">Newer &rarr;</a>
-                        </li>
-                    </ul>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleInputPassword1">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <button type="submit" class="btn btn-default">Log In</button>
+                    </form>
                 </div>
             </div>
         </div>
-
     </div>
-    <!-- /.container -->
 
+  <div class="container">
+    <div class="row">
+        <div class="box">
+            <div class="col-lg-12">
+                <hr>
+                <h2 class="intro-text text-center">PCT Gamer's Guild
+                        <strong>Actives Log</strong>
+                    </h2>
+                <hr>
+            </div>
+
+            <div class="col-lg-8 text-center">
+                <img class="img-responsive img-border img-full" src="img/slide-1.jpg" alt="">
+                <h2>Christmas Card Making 
+                        <br>
+                        <small>December 1, 2013</small>
+                </h2>
+                <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. <span class="label label-info">Christmas Card</span></p>
+                <a href="#" class="btn btn-default btn-lg">Read More</a>
+                <hr>
+            </div>
+            <div class="col-md-4">
+                <form class="navbar-form navbar-left " role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-striped">
+                 <th class ="text-center">Months</th>
+                    <tr><td class ="text-center">January</td></tr>
+                    <tr><td class ="text-center">February</td></tr>
+                    <tr><td class ="text-center">March</td></tr>
+                    <tr><td class ="text-center">April</td></tr>
+                    <tr><td class ="text-center">May</td></tr>
+                    <tr><td class ="text-center">June</td></tr>
+                    <tr><td class ="text-center">July</td></tr>
+                    <tr><td class ="text-center">August</td></tr>
+                    <tr><td class ="text-center">September</td></tr>
+                    <tr><td class ="text-center">October</td></tr>
+                    <tr><td class ="text-center">November</td></tr>
+                    <tr><td class ="text-center">December</td></tr>
+                    
+                </table>
+            </div>
+            <div class="col-md-4">
+                <table class="table table-striped">
+                 <th>Tags</th>
+                    <tr><td class ="text-center">Halloween</td> </tr>
+                    <tr><td class ="text-center">Christmas Card</td> </tr>
+                    <tr><td class ="text-center">Anime</td> </tr>
+                    <tr><td class ="text-center">Cosplay</td> </tr>
+                </table>
+            </div>
+            <div class="col-lg-8 text-center">
+                <img class="img-responsive img-border img-full" src="img/slide-2.jpg" alt="">
+                <h2>Christmas Card Making 
+                        <br>
+                        <small>December 3, 2014</small>
+                    </h2>
+                <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. <span class="label label-info">Christmas Card</span></p>
+                <a href="#" class="btn btn-default btn-lg">Read More</a>
+                <hr>
+            </div>
+
+            <div class="col-lg-8 text-center">
+                <img class="img-responsive img-border img-full" src="img/slide-3.jpg" alt="">
+                <h2>Halloween Party 
+                        <br>
+                        <small>October 13, 2014</small>
+                    </h2>
+                <p>Lid est laborum dolo rumes fugats untras. Etharums ser quidem rerum facilis dolores nemis omnis fugats vitaes nemo minima rerums unsers sadips amets. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. <span class="label label-info">Halloween</span> <span class="label label-info">Cosplay</span></p>
+                <a href="#" class="btn btn-default btn-lg">Read More</a>
+                <hr>
+            </div>
+            <div class="col-lg-8 text-center">
+                <ul class="pager">
+                    <li class="previous"><a href="#">&larr; Older</a>
+                    </li>
+                    <li class="next"><a href="#">Newer &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- /.container -->
     <footer>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; PCT Gamers' Guild 2016</p>
                 </div>
             </div>
         </div>
