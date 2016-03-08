@@ -1,5 +1,5 @@
-@import "/css/bootstrap.min.css";
-@import "/css/business-casual.css";
+@import '../css/bootstrap.min.css';
+@import '../css/business-casual.css';
 
 //Varibles
 
@@ -25,3 +25,5 @@ body {background-color: $BGcolor;}
             color: $textColor;}
 
 .tab-pane {padding: $tabPanePad}
+
+.sideNav {position: fixed;}

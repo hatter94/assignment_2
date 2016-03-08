@@ -1,5 +1,5 @@
-@import url(/css/bootstrap.min.css);
-@import url(/css/business-casual.css);
+@import url(../css/bootstrap.min.css);
+@import url(../css/business-casual.css);
 body, h1, h2, h3, h4, li, p {
   font: Helvetica, sans-serif; }
 
@@ -16,5 +16,8 @@ body {
 
 .tab-pane {
   padding: 10px; }
+
+.sideNav {
+  position: fixed; }
 
 /*# sourceMappingURL=style.css.map */
